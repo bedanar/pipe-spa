@@ -1,0 +1,21 @@
+.header__content{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.explain-text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;  
+}
+
+@media (max-width:568px){
+    .header__content{
+        flex-direction: column;
+    }
+    .explain-text{
+        margin-top: 16px;
+    }
+}
