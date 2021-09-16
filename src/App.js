@@ -1,14 +1,13 @@
 import React from 'react';
-import EnterPage from './components/EnterPage';
-import SignupPage from './components/SignupPage'
-
+import useRoutes from "./routes";
+import {BrowserRouter as Router} from "react-router-dom"
 
 function App() {
+  const routes = useRoutes()
   return (
-    <div>
-      <EnterPage />
-      <SignupPage />
-    </div>
+    <Router>
+      {routes}
+    </Router>
   );
 }
 

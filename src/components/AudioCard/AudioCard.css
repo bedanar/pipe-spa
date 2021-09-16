@@ -1,0 +1,46 @@
+.audio-card{
+    background-color: #fff;
+    padding: 14px;
+    margin-bottom: 24px;
+}
+.card-user__info{
+    display: flex;
+    align-items: center;
+}
+.card-user__img{
+    margin-right: 4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #0066FF 0%, #944DE1 50%, #F43AAA 100%);
+}
+.card-user__login, .card-user__number{
+    font-size: 14px;
+    line-height: 18px;
+    color: #0D0E0F;
+}
+.card-user__login{
+    font-weight: 700;
+}
+.card__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete-btn, .like-btn{
+    background-color: transparent;
+    border: transparent;
+}
+.like-btn{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F43AAA;
+    font-weight: 600;
+}
+.audio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,6 +1,8 @@
 import React from "react"
 import './SignupPage.css'
 import Header from "../Header"
+import { Link } from "react-router-dom"
+
 
 const SignupPage = () => {
     return(
@@ -18,9 +20,11 @@ const SignupPage = () => {
                         <input className="input" placeholder="repeat password" type="password" />
                         <div className="flex">
                             <button type="submit" className="black-btn">Sign up</button>
-                            <span className="yet">
-                            Already hav an account? Enter here
-                            </span>
+                            <Link to="/enter">
+                                <span className="yet">
+                                Already hav an account? Enter here
+                                </span>
+                            </Link>
                         </div>
                     </form>
                     <div className="mt16">By signing up you agree to the Privacy Policy</div>

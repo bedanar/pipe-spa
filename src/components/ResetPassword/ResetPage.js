@@ -1,10 +1,9 @@
-import React from 'react'
-import './EnterPage.css'
-import Header from '../Header/Header'
+import React from "react"
+import Header from "../Header"
 import { Link } from "react-router-dom"
 
 
-const EnterPage = () => {
+const ResetPage = () => {
     return(
         <div className="container">
             <Header />
@@ -17,18 +16,12 @@ const EnterPage = () => {
                     <form>
                         <input className="input" placeholder="username" type="text" />
                         <input className="input" placeholder="password" type="password" />
+                        <input className="input" placeholder="repeat password" type="password" />
                         <div className="flex">
-                            <button type="submit" className="black-btn">Enter</button>
-                            <Link to="/signup">
-                                <span className="yet">
-                                    Don’t have an account yet? Sign up here
-                                </span>
-                            </Link>
+                            <button type="submit" className="black-btn">Reset password</button>
                         </div>
                     </form>
-                    <Link to="/reset">
-                        <div className="mt16">Forgot your password? Reset here</div>
-                    </Link>
+                    <div className="mt16">Check your e-mail! We have sent you the link to change the password.</div>
 
                 </div>
             </main>
@@ -36,4 +29,4 @@ const EnterPage = () => {
     )
 }
 
-export default EnterPage
+export default ResetPage
