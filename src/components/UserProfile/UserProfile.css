@@ -69,3 +69,12 @@ span{
     color: #0D0E0F;
     transition: .3s ease-in;
 }
+
+.add-btn{
+    padding: 40px 100px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px #cacaca dotted;
+    margin-top: 24px;
+    color: #cacaca;
+}

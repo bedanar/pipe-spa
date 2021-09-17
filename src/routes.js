@@ -8,8 +8,9 @@ import UserProfile from './components/UserProfile'
 const useRoutes = () => {
     return(
         <Switch>
-            {/* <Route exact path="/">
-            </Route> */}
+            <Route exact path="/">
+                <UserProfile />
+            </Route>
             <Route path="/signup">
                 <SignupPage />
             </Route>

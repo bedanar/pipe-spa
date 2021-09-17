@@ -24,6 +24,7 @@ const UserProfile = () => {
                             <span className="big-text bold">500k</span>
                         </div>
                     </div>
+                    <button className="add-btn"> Add audio</button>
                     <button className="follow-btn">Follow</button>
                     <div className="audio-cards">
                         <AudioCard />
