@@ -10,10 +10,10 @@ const MenuBar = () => {
                     <Link to="/">
                         <img src="./home.svg" />
                     </Link>
-                    <Link to="/">
+                    <Link to="/users">
                         <img src="./search.svg" />
                     </Link>
-                    <Link to="/">
+                    <Link to="/user">
                         <img src="./person.svg" />
                     </Link>
                     <Link to="/settings">

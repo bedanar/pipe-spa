@@ -4,12 +4,14 @@ import SignupPage from './components/SignupPage'
 import EnterPage from './components/EnterPage'
 import ResetPage from './components/ResetPassword'
 import UserProfile from './components/UserProfile'
-
+import Settings from './components/Settings'
+import ScrollPage from './components/ScrollPage'
+import Users from './components/Users'
 const useRoutes = () => {
     return(
         <Switch>
             <Route exact path="/">
-                <UserProfile />
+                <ScrollPage />
             </Route>
             <Route path="/signup">
                 <SignupPage />
@@ -22,6 +24,12 @@ const useRoutes = () => {
             </Route>
             <Route path="/user">
                 <UserProfile/>
+            </Route>
+            <Route path="/settings">
+                <Settings/>
+            </Route>
+            <Route exact path="/users">
+                <Users />
             </Route>
         </Switch>
     )

@@ -1,9 +1,9 @@
-import React from 'react'
-import './UserProfile.css'
-import AudioCard from '../AudioCard'
-import MenuBar from '../MenuBar'
+import React from "react";
+import './Settings.css'
+import MenuBar from "../MenuBar";
 
-const UserProfile = () => {
+
+const Settings = () => {
     return(
         <div className="user-page">
             <div className="container">
@@ -24,20 +24,31 @@ const UserProfile = () => {
                             <span className="big-text bold">500k</span>
                         </div>
                     </div>
-                    <button className="add-btn"> Add audio</button>
-                    <button className="follow-btn">Follow</button>
-                    <div className="audio-cards">
-                        <AudioCard />
-                    </div>
+                    <form>
+                        <div className="input-block">
+                            <p className="input-title">E-mail</p>
+                            <input type="e-mail" className="input-settings"/>
+                        </div>
+                        <div className="input-block">
+                            <p className="input-title">Password</p>
+                            <input  type="password" className="input-settings"/>
+                        </div>
+                        <div className="input-block">
+                            <p className="input-title">Repeat password</p>
+                            <input placeholder="" type="password" className="input-settings"/>
+                        </div>
+                        <button className="follow-btn" type="submit">Submit</button>
+                    </form>
                     <div className="menu-bar">
                         <MenuBar />
                     </div>
+                    
+
                 </div>
                 
             </div>
-            
         </div>
     )
 }
 
-export default UserProfile
+export default Settings

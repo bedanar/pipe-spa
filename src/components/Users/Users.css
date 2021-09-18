@@ -1,0 +1,41 @@
+.users-page{
+    background-color: #E9F2FF;
+    height: 100vh;
+}
+.users-page__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 0;
+}
+.input-search{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 10px 15px;
+    border: transparent;
+    border-radius: 4px;
+    background-image: url(../../assets/search.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    width: 300px;
+}
+
+.user-item{
+    background-color: #fff;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    width: 300px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}

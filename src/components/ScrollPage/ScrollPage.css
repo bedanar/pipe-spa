@@ -1,0 +1,14 @@
+.scroll-page{
+    background-color: #E9F2FF;
+}
+
+.scrollpage_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 0;
+}
+.mb24{
+    margin-bottom: 24px;
+}

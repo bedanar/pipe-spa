@@ -1,8 +1,9 @@
 .menu-bar{
     position: fixed;
-    right: 0; 
-    bottom: 0;
-    left: 0;
+    display: flex;
+    align-items: center;
+    width: 328px;
+
 }
 .menu-bar__content{
     background-color: #fff;
